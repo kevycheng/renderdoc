@@ -169,8 +169,6 @@ private:
 
   QString dragFilename(const QMimeData *mimeData);
 
-  void OpenRGPProfile(QString path);
-
   enum class UpdateResult
   {
     Disabled,
